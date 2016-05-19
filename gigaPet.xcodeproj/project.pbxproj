@@ -12,6 +12,7 @@
 		968259F31CED6E7A00D6C845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968259F11CED6E7A00D6C845 /* Main.storyboard */; };
 		968259F51CED6E7B00D6C845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968259F41CED6E7B00D6C845 /* Assets.xcassets */; };
 		968259F81CED6E7B00D6C845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968259F61CED6E7B00D6C845 /* LaunchScreen.storyboard */; };
+		96825A001CEE1D9D00D6C845 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968259FF1CEE1D9D00D6C845 /* DragImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		968259F41CED6E7B00D6C845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		968259F71CED6E7B00D6C845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		968259F91CED6E7B00D6C845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968259FF1CEE1D9D00D6C845 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				968259F41CED6E7B00D6C845 /* Assets.xcassets */,
 				968259F61CED6E7B00D6C845 /* LaunchScreen.storyboard */,
 				968259F91CED6E7B00D6C845 /* Info.plist */,
+				968259FF1CEE1D9D00D6C845 /* DragImg.swift */,
 			);
 			path = gigaPet;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96825A001CEE1D9D00D6C845 /* DragImg.swift in Sources */,
 				968259F01CED6E7A00D6C845 /* ViewController.swift in Sources */,
 				968259EE1CED6E7A00D6C845 /* AppDelegate.swift in Sources */,
 			);
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ken.gigaPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ken.gigaPet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
